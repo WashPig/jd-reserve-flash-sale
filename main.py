@@ -23,7 +23,7 @@ class BuyProcess (threading.Thread):
         self.asst.exec_seckill_by_time(self.skuid, self.buy_time, num=self.num)
 
 '''
-预定线程
+预定线程1
 '''
 class ReserveProcess (threading.Thread):
     def __init__(self, threadID, skuid, reserve_time, buy_time, asst):
